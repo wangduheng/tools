@@ -13,8 +13,9 @@
     tools:showIn="@layout/activity_main"
     tools:context="com.hengry.tools.MainActivity">
 
-    <TextView
-        android:text="Hello World!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <com.hengry.pbcompat.Pb
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:indeterminate="true"/>
+
 </RelativeLayout>
